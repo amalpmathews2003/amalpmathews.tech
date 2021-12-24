@@ -3,7 +3,7 @@ import styled from '@emotion/styled'
 import Image from 'next/image'
 import Link from 'next/link'
 
-const logoBox = styled.span`
+const LogoBox = styled.span`
 font-weight: bold;
 font-size: 18px;
 display: inline-flex;
@@ -24,7 +24,7 @@ export default function Logo() {
   return (
     <Link href="/">
       <a>
-        <logoBox>
+        <LogoBox>
           <Image src={logoImage} width={20} height={20} alt='logo'></Image>
           <Text
             color={useColorModeValue('grey.800', 'whiteAlpha.900')}
@@ -34,7 +34,7 @@ export default function Logo() {
           >
             Amal P Mathews
           </Text>
-        </logoBox>
+        </LogoBox>
       </a>
     </Link>
   )
