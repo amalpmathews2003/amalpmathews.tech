@@ -1,7 +1,11 @@
 import NextLink from 'next/link'
 import Image from 'next/image'
 import { Box, LinkBox, LinkOverlay, Text } from '@chakra-ui/react'
+<<<<<<< HEAD
 import { Global } from '@emotion/react'
+=======
+
+>>>>>>> e2929ba4bfcdb653c7e2310a0a3c6de1b45d8423
 
 export function GridItem({ children, href, title, thumbnail }) {
       return (
@@ -49,10 +53,14 @@ export  function WorkGridItem({ children, id, title, thumbnail }) {
 }
 
 export function GridItemStyle(){
+<<<<<<< HEAD
       <Global
       styles={`
       .grid-item-thumbnail {
         border-radius: 12px;
       }
     `}> </Global>
+=======
+      <Global>    </Global>
+>>>>>>> e2929ba4bfcdb653c7e2310a0a3c6de1b45d8423
 }
