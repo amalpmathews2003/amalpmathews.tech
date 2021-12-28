@@ -8,7 +8,7 @@ export default function Home() {
   return (
     <Container>
       <Box borderRadius={"lg"} bg={useColorModeValue('whiteAlpha.500', 'whiteAlpha.200')} p={3} mb={3} align={"center"}>
-        hello i&apos;m a full-stack developer
+        Welcome to my Website
       </Box>
       <Box display={{ md: "flex" }}>
         <Box flexGrow={1}>
