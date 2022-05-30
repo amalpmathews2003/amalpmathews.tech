@@ -68,14 +68,13 @@ export default function Home() {
               </Heading>
               <Paragraph>
                 {IndexPageData.description}
-                <NextLink href={IndexPageData.currentProject.url}>
+                {/* <NextLink href={IndexPageData.currentProject.url}>
                   <a>
                     <Link color={"red"}>
                       {IndexPageData.currentProject.name}
                     </Link>
                   </a>
-                </NextLink>
-                .
+                </NextLink> */}
               </Paragraph>
               <Box align="center" my={4}>
                 <a

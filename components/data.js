@@ -4,14 +4,13 @@ export const IndexPageData = {
   profilePic: {
     src: "https://drive.google.com/uc?id=1LuJus2azm3iaSj1ydc1ro6p8HPMn3L0M",
   },
-  description: `Lorem Ipsum is simply dummy text of the printing and typesetting
-  industry. Lorem Ipsum has been the industry&apos;s standard
-  dummy text ever since the 1500s, when an unknown printer took a
-  galley of type and scrambled it to make a type specimen book.
-  Currently working on project  `,
+  description: `Innovative and goal-driven engineer, experienced in web and app development, data
+  science. Equipped with a record of success in constantly identifying and providing
+  technological needs of different clubs and fests. Profcient in working under pressure.
+  And loves collaborating and helping innovative minds to grow.`,
   currentProject: {
-    name: "Inkdorp",
-    url: "https://inkdorp.com",
+    name: "yummy",
+    url: "https://yummy.amalpmathews.tech",
   },
   resumeLink:
     "https://drive.google.com/uc?id=1HvUmeopMhy-C9sNIZrFyhppKbmXMVdWh",
