@@ -1,0 +1,32 @@
+.next-image-div {
+  height: 230px;
+  width: 282px;
+  overflow: hidden;
+  border-radius: 10px;
+}
+.projects-container {
+  max-width: 80vw;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.project-desc {
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  max-width: 300px;
+  color: grey;
+}
+.project-img-div {
+  position: relative;
+  height: 400px;
+  overflow: hidden;
+  /* width: 100%; */
+  border-radius: 20px;
+}
+.textstack {
+  padding: 5px 10px;
+  border-radius: 20px;
+  background-color: #3c3635;
+  color: white;
+}

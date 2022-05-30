@@ -47,13 +47,15 @@ export function WorkGridItem({ children, link, title, thumbnail }) {
 }
 
 export function GridItemStyle() {
-  return (<Global
-    styles={`
+  return (
+    <Global
+      styles={`
       .grid-item-thumbnail {
         border-radius: 12px;
       }
     `}
-  >
-    {" "}
-  </Global>);
+    >
+      {" "}
+    </Global>
+  );
 }
