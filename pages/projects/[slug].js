@@ -15,6 +15,7 @@ import styles from "styles/projects.module.css";
 import { FiGithub } from "react-icons/fi";
 import { BiLink } from "react-icons/bi";
 import { ProjectPageData } from "@/components/data";
+import Layout from "@/components/article";
 const alignCenter = {
   style: {
     alignSelf: "center",
@@ -22,7 +23,8 @@ const alignCenter = {
 };
 const ProjectPage = ({ project }) => {
   return (
-    <div>
+    <Layout title={project.title}>
+
       <Center>
         <Stack direction={["column", null, null, "row"]}>
           <Heading>{project.title}</Heading>
@@ -76,7 +78,7 @@ const ProjectPage = ({ project }) => {
         ))}
       </Stack>
       {project?.pre}
-    </div>
+    </Layout>
   );
 };
 

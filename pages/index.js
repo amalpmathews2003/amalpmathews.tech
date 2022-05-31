@@ -23,14 +23,10 @@ import { ImFacebook } from "react-icons/im";
 import NextImage from "next/image";
 import { AiOutlineTwitter, AiFillLinkedin } from "react-icons/ai";
 import { IndexPageData } from "@/components/data";
-import Head from "next/head";
 export default function Home() {
   return (
     <Layout title={"Home Page"}>
       <>
-        <Head>
-          <title>Home</title>
-        </Head>
         <Box
           borderRadius={"lg"}
           bg={useColorModeValue("whiteAlpha.500", "whiteAlpha.200")}

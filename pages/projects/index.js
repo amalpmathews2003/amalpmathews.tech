@@ -16,7 +16,7 @@ import { ProjectCard } from "@/components/projectCard";
 import { ProjectPageData } from "@/components/data";
 export default function ProjectIndex() {
   return (
-    <Layout title={"Works"}>
+    <Layout title={"Projects"}>
       <>
         <Center>
           <Heading as="h3" fontSize={20} mb={4}>

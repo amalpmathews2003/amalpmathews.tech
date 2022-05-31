@@ -11,10 +11,10 @@ export default class Document extends NextDocument {
           <meta charSet="utf-8" />
           <link rel="canonical" href="https://www.amalpmathews.tech/" />
           <meta name="author" content="Amal P Mathews" />
-          <meta name="description" content="This is my personal website" />
+          <meta name="description" content="A portfolio website" />
           <meta
             property="og:description"
-            content="This is my personal website"
+            content="A portfolio website"
           />
           <meta property="og:url" content="https://www.amalpmathews.tech/" />
           <meta property="og:type" content="portfolio-website" />
