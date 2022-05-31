@@ -20,12 +20,17 @@ import Layout from "@/components/article";
 import { FiGithub } from "react-icons/fi";
 import { BsFacebook, BsInstagram } from "react-icons/bs";
 import { ImFacebook } from "react-icons/im";
+import NextImage from "next/image";
 import { AiOutlineTwitter, AiFillLinkedin } from "react-icons/ai";
 import { IndexPageData } from "@/components/data";
+import Head from "next/head";
 export default function Home() {
   return (
     <Layout title={"Home Page"}>
       <>
+        <Head>
+          <title>Home</title>
+        </Head>
         <Box
           borderRadius={"lg"}
           bg={useColorModeValue("whiteAlpha.500", "whiteAlpha.200")}
@@ -48,7 +53,7 @@ export default function Home() {
             ml={{ md: 6 }}
             align="center"
           >
-            <Image
+            {/* <Image
               borderColor="whiteAlpha.800"
               borderWidth={2}
               borderStyle="solid"
@@ -57,7 +62,25 @@ export default function Home() {
               borderRadius="full"
               src={IndexPageData.profilePic.src}
               alt="profile image"
-            />
+            /> */}
+            <div
+              style={{
+                position: "relative",
+                width: "100px",
+                height: "100px",
+                borderRadius: "50%",
+                border: "2px solid whiteAlpha.800",
+                display: "inline-block",
+                borderWidth: 2,
+                overflow: "hidden",
+              }}
+            >
+              <NextImage
+                objectFit="cover"
+                src={IndexPageData.profilePic.src}
+                layout="fill"
+              />
+            </div>
           </Box>
         </Box>
         <Stack direction={["column", null, null, "row"]}>
@@ -131,66 +154,67 @@ export default function Home() {
                     href={"https://github.com/amalpmathews2003"}
                     target="_blank"
                     rel="noreferrer"
+                    aria-label="Github"
                   >
-                    <Link>
-                      <Button
-                        variant={"ghost"}
-                        colorScheme={"teal"}
-                        leftIcon={<Icon as={FiGithub}></Icon>}
-                      ></Button>
-                    </Link>
+                    <Button
+                      aria-label="Github"
+                      variant={"ghost"}
+                      colorScheme={"teal"}
+                      leftIcon={<Icon as={FiGithub}></Icon>}
+                    ></Button>
                   </a>
+
                   <a
                     href={"https://www.instagram.com/amal_p_mathews_2003/"}
                     target="_blank"
                     rel="noreferrer"
+                    aria-label="Instagram"
                   >
-                    <Link>
-                      <Button
-                        variant={"ghost"}
-                        colorScheme={"teal"}
-                        leftIcon={<Icon as={BsInstagram}></Icon>}
-                      ></Button>
-                    </Link>
+                    <Button
+                      aria-label="Instagram"
+                      variant={"ghost"}
+                      colorScheme={"teal"}
+                      leftIcon={<Icon as={BsInstagram}></Icon>}
+                    ></Button>
                   </a>
                   <a
                     href={"https://www.facebook.com/amalpullukottayil.mathew"}
                     target="_blank"
                     rel="noreferrer"
+                    aria-label="Facebook"
                   >
-                    <Link>
-                      <Button
-                        variant={"ghost"}
-                        colorScheme={"teal"}
-                        leftIcon={<Icon as={BsFacebook}></Icon>}
-                      ></Button>
-                    </Link>
+                    <Button
+                      aria-label="Facebook"
+                      variant={"ghost"}
+                      colorScheme={"teal"}
+                      leftIcon={<Icon as={BsFacebook}></Icon>}
+                    ></Button>
                   </a>
                   <a
                     href={"https://github.com/amalpmathews2003"}
                     target="_blank"
                     rel="noreferrer"
+                    aria-label="LinkedIn"
                   >
-                    <Link>
-                      <Button
-                        variant={"ghost"}
-                        colorScheme={"teal"}
-                        leftIcon={<Icon as={AiOutlineTwitter}></Icon>}
-                      ></Button>
-                    </Link>
+                    <Button
+                      aria-label="Twitter"
+                      variant={"ghost"}
+                      colorScheme={"teal"}
+                      leftIcon={<Icon as={AiOutlineTwitter}></Icon>}
+                    ></Button>
                   </a>
                   <a
                     href={"https://www.linkedin.com/in/amal-p-mathews/"}
                     target="_blank"
                     rel="noreferrer"
+                    aria-label="LinkedIn"
                   >
-                    <Link>
-                      <Button
-                        variant={"ghost"}
-                        colorScheme={"teal"}
-                        leftIcon={<Icon as={AiFillLinkedin}></Icon>}
-                      ></Button>
-                    </Link>
+                    <Button
+                      aria-label="Linkedin"
+                      variant={"ghost"}
+                      colorScheme={"teal"}
+                      leftIcon={<Icon as={AiFillLinkedin}></Icon>}
+                    ></Button>
                   </a>
                 </ListItem>
               </List>
