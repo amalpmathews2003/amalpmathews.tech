@@ -79,6 +79,7 @@ export default function Home() {
                 objectFit="cover"
                 src={IndexPageData.profilePic.src}
                 layout="fill"
+                alt={"profile-img"}
               />
             </div>
           </Box>

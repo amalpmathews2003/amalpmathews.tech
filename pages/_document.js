@@ -18,7 +18,7 @@ export default class Document extends NextDocument {
           />
           <meta property="og:url" content="https://www.amalpmathews.tech/" />
           <meta property="og:type" content="portfolio-website" />
-          <met
+          <meta
             property="og:image"
             content="https://drive.google.com/uc?id=1LuJus2azm3iaSj1ydc1ro6p8HPMn3L0M"
           />

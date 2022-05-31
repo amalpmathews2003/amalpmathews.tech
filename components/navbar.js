@@ -24,13 +24,13 @@ function LinkItem({ href, path, children }) {
   return (
     <NextLink href={href}>
       <a>
-        <Link
+        {/* <Link
           p={2}
           bg={active ? "glassTeal" : undefined}
           color={active ? "#202023" : inactiveColor}
-        >
-          {children}
-        </Link>
+        > */}
+        {children}
+        {/* </Link> */}
       </a>
     </NextLink>
   );
