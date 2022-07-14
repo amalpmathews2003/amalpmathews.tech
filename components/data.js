@@ -1,6 +1,6 @@
 export const IndexPageData = {
   name: "Amal P Mathews",
-  title: "Web developer,Programmer",
+  title: "Developer with a keen interest in learning new tech",
   profilePic: {
     src: "https://drive.google.com/uc?id=1KNLT3KvPucWqd15Xt6JWUGzCqigqzuv0",
   },
@@ -28,7 +28,7 @@ export const IndexPageData = {
       title: " Born in Kerala,India",
     },
   ],
-  iLove: `Problem solving, Competative programming, Website development,
+  iLove: `Learning new tech,Problem solving, Competative programming, Web development,
   Music, Playing keyboard`,
 };
 export const ProjectPageData = {

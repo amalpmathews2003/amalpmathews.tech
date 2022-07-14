@@ -13,4 +13,15 @@ a {
 
 * {
   box-sizing: border-box;
+  /* text-rendering: optimizeLegibility;
+  touch-action: manipulation; */
+}
+
+::-webkit-scrollbar {
+  width: 8px;
+  background: #ffffff00;
+}
+::-webkit-scrollbar-thumb {
+  background: rgb(129, 230, 217);
+  border-radius: 8px;
 }

@@ -11,6 +11,9 @@ import {
   useColorModeValue,
   Stack,
 } from "@chakra-ui/react";
+
+import { Skills } from "@/components/skills";
+
 import Section from "../components/section";
 import Paragraph from "../components/paragraph";
 import NextLink from "next/link";
@@ -41,7 +44,13 @@ export default function Home() {
             <Heading as={"h2"} variant="page-title">
               {IndexPageData.name}
             </Heading>
-            <p>{IndexPageData.title}</p>
+            <p
+              style={{
+                color: "GrayText",
+              }}
+            >
+              {IndexPageData.title}
+            </p>
           </Box>
           <Box
             flexShrink={0}
@@ -133,7 +142,13 @@ export default function Home() {
               <Heading as="h3" variant="section-title">
                 I ♥
               </Heading>
-              <Paragraph>{IndexPageData.iLove}</Paragraph>
+              <Paragraph
+                style={{
+                  textIndent: "1rem",
+                }}
+              >
+                {IndexPageData.iLove}
+              </Paragraph>
             </Section>
           </Box>
           <Box
@@ -218,6 +233,11 @@ export default function Home() {
             </Section>
           </Box>
         </Stack>
+        <Section delay={0.3}>
+          <Stack>
+            <Skills all={false} />
+          </Stack>
+        </Section>
       </>
     </Layout>
   );

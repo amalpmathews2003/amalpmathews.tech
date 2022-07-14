@@ -66,12 +66,13 @@ export default function Navbar(props) {
           // width={{ base: "full", md="auto" }}
           alignItems="center"
           flexGrow={1}
+          pt={"6px"}
           mt={{ base: 4, nmd: 0 }}
         >
           <LinkItem href={"/projects"} path={path}>
             Projects
           </LinkItem>
-          {/* <LinkItem href={"/posts"} path={path}>Posts</LinkItem> */}
+          <LinkItem href={"/skills"} >Skills</LinkItem>
         </Stack>
         <Box flex={1} align="right">
           <ThemeToggleButton />
@@ -85,10 +86,13 @@ export default function Navbar(props) {
               ></MenuButton>
               <MenuList>
                 <NextLink href={"/"} passHref>
-                  <MenuItem as={Link}>About</MenuItem>
+                  <MenuItem as={Link}>Home</MenuItem>
                 </NextLink>
                 <NextLink href={"/projects"} passHref>
                   <MenuItem as={Link}>Projects</MenuItem>
+                </NextLink>
+                <NextLink href={"/skills"} passHref>
+                  <MenuItem as={Link}>Skills</MenuItem>
                 </NextLink>
               </MenuList>
             </Menu>
