@@ -2,7 +2,7 @@ export const IndexPageData = {
   name: "Amal P Mathews",
   title: "Web developer,Programmer",
   profilePic: {
-    src: "https://drive.google.com/file/d/1KNLT3KvPucWqd15Xt6JWUGzCqigqzuv0/view?usp=sharing",
+    src: "https://drive.google.com/uc?id=1KNLT3KvPucWqd15Xt6JWUGzCqigqzuv0",
   },
   description: `Innovative and goal-driven engineer, experienced in web and app development, data
   science. Equipped with a record of success in constantly identifying and providing
@@ -112,7 +112,7 @@ export const ProjectPageData = {
         "Offical website Centre for Information Technology Research & Automation NITC  (Frontend and Backend)",
       image: {
         bgColor: "white",
-        src: "https://drive.google.com/file/d/1wjftlR8lpIRwlpRWH_k3Ui0eO97daCt3/view?usp=sharing",
+        src: "https://drive.google.com/uc?id=11wjftlR8lpIRwlpRWH_k3Ui0eO97daCt3",
       },
       category: "web dev",
       techStack: ["Nextjs", "Strapi", "Typescript", "GraphQl"],
