@@ -112,7 +112,7 @@ export const ProjectPageData = {
         "Offical website Centre for Information Technology Research & Automation NITC  (Frontend and Backend)",
       image: {
         bgColor: "white",
-        src: "https://drive.google.com/uc?id=11wjftlR8lpIRwlpRWH_k3Ui0eO97daCt3",
+        src: "https://drive.google.com/uc?id=1wjftlR8lpIRwlpRWH_k3Ui0eO97daCt3",
       },
       category: "web dev",
       techStack: ["Nextjs", "Strapi", "Typescript", "GraphQl"],
