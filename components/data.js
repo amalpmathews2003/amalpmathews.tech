@@ -2,7 +2,7 @@ export const IndexPageData = {
   name: "Amal P Mathews",
   title: "Web developer,Programmer",
   profilePic: {
-    src: "https://drive.google.com/uc?id=1LuJus2azm3iaSj1ydc1ro6p8HPMn3L0M",
+    src: "https://drive.google.com/file/d/1KNLT3KvPucWqd15Xt6JWUGzCqigqzuv0/view?usp=sharing",
   },
   description: `Innovative and goal-driven engineer, experienced in web and app development, data
   science. Equipped with a record of success in constantly identifying and providing
@@ -13,10 +13,10 @@ export const IndexPageData = {
     url: "https://yummy.amalpmathews.tech",
   },
   resumeLink:
-    "https://drive.google.com/uc?id=1HvUmeopMhy-C9sNIZrFyhppKbmXMVdWh",
+    "https://drive.google.com/file/d/1h-lfuUjnLaeG-iaEyVSsIBXPNV4e_H6g/view?usp=sharing",
   bio: [
     {
-      year: "2020 -24",
+      year: "Now",
       title: "Pursuing Btech in EEE at NITC",
     },
     {
@@ -104,6 +104,18 @@ export const ProjectPageData = {
       githubLink: "https://github.com/amalpmathews2003/port-sniffer",
       category: "cli dev",
       techStack: ["Rust", "Std", "multithreading", "cli"],
+    },
+    {
+      title: "CITRA",
+      slug: "citra",
+      description:
+        "Offical website Centre for Information Technology Research & Automation NITC  (Frontend and Backend)",
+      image: {
+        bgColor: "white",
+        src: "https://drive.google.com/file/d/1wjftlR8lpIRwlpRWH_k3Ui0eO97daCt3/view?usp=sharing",
+      },
+      category: "web dev",
+      techStack: ["Nextjs", "Strapi", "Typescript", "GraphQl"],
     },
     {
       title: "Tree Cli",
